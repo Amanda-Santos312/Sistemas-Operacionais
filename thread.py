@@ -25,14 +25,9 @@ def tarefa3():
          z += 1
            
 
-threading.Thread(target=tarefa1).start()
+threading.Thread(target=tarefa1).start() #inicia com a tarefa 1       
 tarefa2()
 tarefa3()
-
-
-
-'''threading.Thread(target=tarefa1).start() #chama a função
-tarefa2()'''
 
 '''
 O resultado vai ser uma impressão sem padrão, 
